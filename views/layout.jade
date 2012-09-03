@@ -3,5 +3,11 @@ html
   head
     title= title
     link(rel='stylesheet', href='/css/style.css')
+    script(data-main="/js/main", src="/js/lib/require-jquery.js")
   body
     block content
+    block debug
+      #debug
+
+    script(src="/js/modules/a.js")
+    block bottomjs

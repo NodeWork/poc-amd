@@ -18,14 +18,20 @@
     //},
 
     paths: {
-        "jquery": "empty:"
+       "jquery": "empty:",
     },
 
     modules: [
-        //Optimize the application files. jQuery is not
-        //included since it is already in require-jquery.js
-        {
-            name: "main"
-        }
+       //Optimize the application files. jQuery is not
+       //included since it is already in require-jquery.js
+       {
+          name: "main"
+       },
+       {
+          name: "features/page.main"
+       },
+       {
+          name: "features/page.b"
+       }
     ]
 })

@@ -4,17 +4,10 @@
       ['jquery', 'features/modulex'],
       function ($, mx) {
          $(function () {
-              write('SUCCESS: jquery $(document).ready(callback) worked');
-              write('SUCCESS: module x is: ' + JSON.stringify(mx));
+              mx.debug('SUCCESS: This is file a');
+              mx.debug('SUCCESS: module x is: ' + JSON.stringify(mx.obj));
          });
       }
    );
-
-   function write (msg) {
-      curl('domReady!', function () {
-              document.body.appendChild(document.createElement('div')).innerHTML = msg;
-           });
-   }
-
 
 })();

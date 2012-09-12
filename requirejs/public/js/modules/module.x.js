@@ -1,4 +1,4 @@
-define("modules/module.common",
+define("modules/module.x",
    ["jquery"],
    function($) {
       console.log("loading module b");

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>jquery $.ready() INDEX</title>
+    
+    <script src="./lib/curl.main.js" type="text/javascript"></script>
+    <script src="./lib/curl.js" type="text/javascript"></script>
+    <script src="./features/index.js" type="text/javascript"></script>
+    
+  </head>
+  <body>
+    <h1> Index </h1>
+    
+  </body>
+  <script>
+	setTimeout(function () {
+	  if (!$docReadyWorked) write('FAILED: $.ready(callback) didn\'t fire');
+	  if (!$readyWorked) write('FAILED: $.ready(callback) didn\'t fire');
+	  if (!$Worked) write('FAILED: $(callback) didn\'t fire');
+	}, 2000);
+  </script>
+</html>

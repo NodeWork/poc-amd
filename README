@@ -2,7 +2,8 @@ Taste of requireJS
 
 ## TODO
 
-  1. Be able to build with r.js
+  1. [X] Be able to build with r.js
+  2. [ ] optimize build.js
 
 ## Links
   

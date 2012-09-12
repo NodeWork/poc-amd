@@ -1,0 +1,3 @@
+[submodule "example-multipage"]
+	path = example-multipage
+	url = git://github.com/requirejs/example-multipage.git

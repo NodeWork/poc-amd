@@ -9,3 +9,6 @@ build: clean
 
 prod: build
 	cd $(DIST) && node app.js
+
+prev:
+	node app.js

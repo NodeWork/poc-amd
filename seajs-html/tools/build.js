@@ -5,7 +5,6 @@
         app: '../app'
     },
     dir: '../www-built',
-    optimize: 'none',
     modules: [
         //First set up the common build layer.
         {

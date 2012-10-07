@@ -3,7 +3,9 @@ Taste of requireJS
 ## TODO
 
   1. [X] Be able to build with r.js
-  2. [ ] optimize build.js
+  2. [X] optimize build.js
+  3. [ ] build tool for curl project.(https://github.com/cujojs/curl)
+  4. [ ] make combo work
 
 ## Links
   
